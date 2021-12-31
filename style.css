@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background: url(images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100%;
+    margin: 0px;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.whole {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background-color: white;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    width: 450px;
+    overflow: hidden;
+}
+
+.topimg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.subtext {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding: 0 3em 1em 3em;
+}
+
+.payment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 3em;
+    margin-bottom: 2em ;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background-color: hsl(225, 100%, 98%);
+    width: 14em;
+    gap: 32px;
+}
+
+.paymentright {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.annual {
+    font-weight: 700; 
+}
+
+.yearly {
+    color: hsl(224, 23%, 55%);
+}
+
+.changelink {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.changelink:hover {
+    opacity: 0.8;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+
+.proceed {
+    color: white;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1em 5.5em;
+    border-radius: 8px;
+}
+
+.proceed:hover {
+    opacity: 0.8;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    padding: 1em;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
