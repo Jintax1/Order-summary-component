@@ -36,6 +36,7 @@ button, input[type="submit"], input[type="reset"] {
     font-family: 'Red Hat Display';
     width: 450px;
     overflow: hidden;
+    box-shadow: 2px 3px 15px grey; 
 }
 
 .topimg {
@@ -107,6 +108,7 @@ button, input[type="submit"], input[type="reset"] {
     background-color: hsl(245, 75%, 52%);
     padding: 1em 5.5em;
     border-radius: 8px;
+    box-shadow: 2px 3px 50px hsla(245, 75%, 52%, 0.5);
 }
 
 .proceed:hover {
